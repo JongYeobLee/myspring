@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<html> 
+	<head>
+		<title>Furry Friends Campaign</title>
+		<link rel="stylesheet" type="text/css" href="/resourcesstyles/my_style.css">
+	</head>
+	<body>
+		<div id="showfriend">
+			<a href="#">
+				<h2>Our Furry Friends Need Your Help</h2>
+				<img src="/resourcesimages/furry_friend.jpg" alt="Our Furry Friend">
+			</a>
+		</div>
+	</body>
+</html>

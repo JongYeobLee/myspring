@@ -1,0 +1,21 @@
+INDEX VERSION 1.131
+D:\web\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2218368252.index
+\myjquery\src\main\java
+D:\web\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\495482442.index
+\ex01\src\main\java
+D:\web\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3503913553.index
+\ex01\src\main\java
+D:\web\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3723287891.index
+\myjquery\src\main\java
+D:\web\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3148088746.index
+\myjquery\src\main\java
+D:\web\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3178133098.index
+\ex00\src\main\java
+D:\web\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3012140731.index
+\ex01\src\main\java
+D:\web\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\223351799.index
+\myjquery\src\main\java
+D:\web\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\689790522.index
+\myjquery\src\main\java
+D:\web\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\581784592.index
+\myjquery\src\main\java
