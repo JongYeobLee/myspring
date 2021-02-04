@@ -2,3 +2,5 @@ log.log
 *.log
 build/
 build/.log
+/bin/
+target/
