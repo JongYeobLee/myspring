@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 @RequestMapping("/seditor/*")
-public class SmartEditor {
+public class SmartEditorController {
 	
-	private static final Logger logger = LoggerFactory.getLogger(SmartEditor.class);
+	private static final Logger logger = LoggerFactory.getLogger(SmartEditorController.class);
 	
 	@RequestMapping(value = "write", method = RequestMethod.GET)
 	public String write(Locale locale, Model model) {
-		logger.info("write called");
+		logger.info("write called............");
 		
 		return "write";
 	}
