@@ -50,7 +50,7 @@ nhn.husky.SE2M_AttachQuickPhoto = jindo.$Class({
 	 */
 	makePopupURL : function(){
 		/*var sPopupUrl = "./sample/photo_uploader/photo_uploader.html";*/
-		var sPopupUrl = "./quick_photo_uploader/photo_uploader.html";
+		var sPopupUrl = "./photo_uploader/photo_uploader.html";
 		
 		return sPopupUrl;
 	},
