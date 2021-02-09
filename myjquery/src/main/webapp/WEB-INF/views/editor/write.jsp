@@ -53,6 +53,12 @@
 				fCreator: "createSEditor2"
 			});
 		}); 
+		
+
+		$("#save").click(function() {
+			oEditors.getById["ir1"].exec("UPDATE_CONTENTS_FIELD", []);
+			$("#frm").submit();
+		})
 	</script>
 
 
