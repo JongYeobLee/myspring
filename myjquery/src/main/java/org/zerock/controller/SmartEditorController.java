@@ -20,7 +20,7 @@ public class SmartEditorController {
 	public String write(Locale locale, Model model) {
 		logger.info("write called............");
 		
-		return "write";
+		return "seditor/write";
 	}
 
 }
