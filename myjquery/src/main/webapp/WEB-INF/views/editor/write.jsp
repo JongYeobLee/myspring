@@ -1,13 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
 <html>
 <head>
 	<title>Home</title>
 
-<script type="text/javascript" src="/resources/editor/js/service/HuskyEZCreator.js"
-	charset="utf-8"></script>
-<script type="text/javascript"
-	src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
+<script type="text/javascript" src="/resources/editor/js/service/HuskyEZCreator.js"	charset="utf-8"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
 
 </head>
 <body>
@@ -22,7 +21,7 @@
 			<tr>
 				<td>내용</td>
 				<td><textarea rows="10" cols="30" id="ir1" name="content"
-						style="width: 766px; height: 412px;"></textarea></td>
+						style="width: 766px; height: 412px;">에디터에 기본으로 삽입할 글(수정 모드)이 없다면 이 value 값을 지정하지 않으시면 됩니다.</textarea></td>
 			</tr>
 			<tr>
 				<td colspan="2"><input type="button" id="save" value="저장" /> <input
@@ -35,7 +34,8 @@
 		var oEditors = [];
 		$(function(){
 			nhn.husky.EZCreator.createInIFrame({
-				oAppRef: oEditors, elPlaceHolder: "ir1",
+				oAppRef: oEditors,
+				elPlaceHolder: "ir1",
 				//SmartEditor2Skin.html 파일이 존재하는 경
 				sSkinURI: "/resources/editor/SmartEditor2Skin.html", 
 				htParams : { // 툴바 사용 여부 (true:사용/ false:사용하지 않음) 

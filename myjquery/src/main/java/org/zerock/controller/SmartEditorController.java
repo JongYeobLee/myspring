@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/seditor/*")
+@RequestMapping("/editor/*")
 public class SmartEditorController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(SmartEditorController.class);
@@ -20,7 +20,7 @@ public class SmartEditorController {
 	public String write(Locale locale, Model model) {
 		logger.info("write called............");
 		
-		return "seditor/write";
+		return "editor/write";
 	}
 
 }
