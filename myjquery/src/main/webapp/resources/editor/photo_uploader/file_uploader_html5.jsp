@@ -50,8 +50,8 @@
 	os.flush(); 
 	os.close(); 
 	
-	System.out.println("path : "+path); 
-	System.out.println("realname : "+realname); 
+	System.out.println("ljy1 path : "+path); 
+	System.out.println("ljy1 realname : "+realname); 
 	
 	// 파일 삭제 // File f1 = new File(path, realname); // if (!f1.isDirectory()) { // if(!f1.delete()) { // System.out.println("File 삭제 오류!"); // } // } 
 	

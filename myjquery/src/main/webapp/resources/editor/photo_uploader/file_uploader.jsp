@@ -65,8 +65,8 @@
 					os.flush(); 
 					os.close(); 
 					
-					System.out.println("path : "+path); 
-					System.out.println("realname : "+realname); 
+					System.out.println("ljy2 path : "+path); 
+					System.out.println("ljy2 realname : "+realname); 
 					
 					// 파일 삭제 
 					// File f1 = new File(path, realname); 
