@@ -38,7 +38,7 @@
 	int numRead; 
 	
 	// 파일쓰기 byte 
-	b[] = new byte[Integer.parseInt(request.getHeader("file-size"))]; 
+	byte b[] = new byte[Integer.parseInt(request.getHeader("file-size"))]; 
 	while((numRead = is.read(b,0,b.length)) != -1) { 
 		os.write(b,0,numRead); 
 	} 

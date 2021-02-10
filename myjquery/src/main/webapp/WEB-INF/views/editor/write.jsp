@@ -35,8 +35,12 @@
 		});
 		
 		$("#save").click(function() {
-			oEditors.getById["ir1"].exec("UPDATE_CONTENTS_FIELD", []);
-			$("#frm").submit();
+			/* oEditors.getById["ir1"].exec("UPDATE_CONTENTS_FIELD", []);
+			$("#frm").submit(); */
+			
+			var val = oEditors.getById["ir1"].exec("UPDATE_CONTENTS_FIELD", []);
+			this.contents = $('#ir1').val();
+			alert(this.contents);
 		});
 	}); 
 	
