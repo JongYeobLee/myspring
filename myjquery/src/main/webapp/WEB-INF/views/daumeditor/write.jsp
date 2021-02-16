@@ -75,8 +75,13 @@
 		
 		//form submit 버튼 클릭
 	    $("#save").click(function(){
-	        //다음에디터가 포함된 form submit
-	       
+			//다음에디터가 포함된 form submit
+	    	/* oEditors.getById["ir1"].exec("UPDATE_CONTENTS_FIELD", []);
+			$("#frm").submit(); */
+			
+			var val = oEditors.getById["editorTd"].exec("UPDATE_CONTENTS_FIELD", []);
+			this.contents = $('#editorTd').val();
+			alert(this.contents);
 	    });
 	})
 	
@@ -119,6 +124,8 @@
 				<td colspan="2"><input type="button" id="save" value="저장" /> <input
 					type="button" value="취소" /></td>
 			</tr>
+			
+			
 		</table>
 	</form>
 

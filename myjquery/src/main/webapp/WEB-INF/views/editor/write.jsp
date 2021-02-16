@@ -8,6 +8,7 @@
 <script type="text/javascript" src="/resources/editor/js/service/HuskyEZCreator.js"	charset="utf-8"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
 
+
 <script type="text/javascript">
 	var oEditors = [];
 	$(function(){
@@ -44,7 +45,11 @@
 		});
 	}); 
 	
-
+	function pasteHTML() {
+		var sHTML = '<object type="text/html" width="100%" height="500" data="//www.youtube.com/embed/k9_XH1YibcY">';
+		oEditors.getById["ir1"].exec("PASTE_HTML", [sHTML]);
+	}
+	
 	
 </script>
 
@@ -64,6 +69,11 @@
 			<tr>
 				<td colspan="2"><input type="button" id="save" value="저장" /> <input
 					type="button" value="취소" /></td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" onclick="pasteHTML();" value="본문에 내용 넣기" />
+				</td>
 			</tr>
 		</table>
 	</form>
