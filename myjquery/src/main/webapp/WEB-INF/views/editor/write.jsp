@@ -72,7 +72,7 @@
 			</tr>
 			<tr>
 				<td>
-					<input type="button" onclick="pasteHTML();" value="본문에 내용 넣기" />
+					<input type="button" onclick="pasteHTML();" value="동영상 넣기" />
 				</td>
 			</tr>
 		</table>
