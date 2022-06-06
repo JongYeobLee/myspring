@@ -21,7 +21,7 @@ public class MemberDAOTest {
 	public void testTime() throws Exception {
 		System.out.println(dao.getTime());
 	}
-	
+/*	
 	@Test
 	public void testInsertMember() throws Exception {
 		MemberVO vo = new MemberVO();
@@ -41,6 +41,6 @@ public class MemberDAOTest {
 	@Test
 	public void testReadWithPW() throws Exception {
 		dao.readWithPW("user00", "user00");
-	}
+	}*/
 	
 }
