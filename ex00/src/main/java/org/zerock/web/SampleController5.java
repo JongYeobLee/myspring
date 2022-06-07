@@ -16,7 +16,7 @@ public class SampleController5 {
 	
 	@RequestMapping("/doJSON")
 	public @ResponseBody ProductVO doJSON() {
-		ProductVO vo = new ProductVO("ìƒ˜í”Œìƒí””", 30000);
+		ProductVO vo = new ProductVO("»ùÇÃ»óÇ°", 30000);
 		
 		return vo;
 	}
