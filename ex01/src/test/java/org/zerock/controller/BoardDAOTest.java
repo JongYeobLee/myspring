@@ -42,14 +42,17 @@ public class BoardDAOTest {
 		board.setBno(1);
 		board.setTitle("수정된 글입니다");
 		board.setContent("수정 테스트");
+		board.setWriter("user00");;
 		dao.update(board);
 	}
+	*/
 	
 	@Test
 	public void testDelete() throws Exception {
 		dao.delete(1);
 	}
 	
+	/*
 	@Test
 	public void testListPage() throws Exception {
 		int page = 3;
@@ -107,7 +110,7 @@ public class BoardDAOTest {
 
 	}
 	*/
-	
+	/*
 	@Test
 	public void testDynamic1() throws Exception {
 		SearchCriteria cri = new SearchCriteria();
@@ -127,6 +130,6 @@ public class BoardDAOTest {
 
 		logger.info("COUNT : " + dao.listSearchCount(cri));
 	}
-	
+	*/
 	
 }

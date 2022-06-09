@@ -30,7 +30,8 @@ public class BoardController {
 		logger.info("register get ......");
 	}
 
-/*	@RequestMapping(value = "/register", method = RequestMethod.POST)
+	/*
+	@RequestMapping(value = "/register", method = RequestMethod.POST)
 	public String registerPOST(BoardVO board, Model model) throws Exception {
 		logger.info("regist post ......");
 		logger.info(board.toString());
@@ -40,7 +41,8 @@ public class BoardController {
 		model.addAttribute("result", "success");
 		//return "board/success";
 		return "redirect:/board/listAll";
-	}*/
+	}
+	*/
 	
 	@RequestMapping(value = "/register", method = RequestMethod.POST)
 	public String registerPOST(BoardVO board, RedirectAttributes rttr) throws Exception {
